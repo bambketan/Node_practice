@@ -10,7 +10,7 @@ app.get('/help', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.send('<h1>Used the h1 tag ie html tag</h1>');
+  res.send('about');
 });
 
 app.get('/weather', (req, res) => {
