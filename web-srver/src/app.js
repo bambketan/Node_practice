@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('', (req, res) => {
-  res.send('Hello');
+  res.send('<h1>Used the h1 tag ie html tag</h1>');
 });
 
 app.get('/help', (req, res) => {
